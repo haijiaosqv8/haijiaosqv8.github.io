@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们与资源报错反馈 - 海角社</title>
+    <meta name="description" content="海角社联系与反馈页面。如果您在下载家庭视频资源时遇到失效链接、解压密码错误或投稿交流，请通过本页面与站长及社区管理团队取得联系。">
+    <meta name="keywords" content="海角社联系方式, 资源失效反馈, 投稿合作, 家庭视频社群, 站长邮箱">
+    <link rel="canonical" href="https://www.haipoint.com/contact.html">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">
+                <a href="index.html">海角社<span>.</span></a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="resources.html">资源库</a></li>
+                    <li><a href="community.html">互动社区</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="contact.html" class="active">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="page-header-section">
+                <h1>联系我们与资源反馈通道</h1>
+                <p>老站长碎碎念：建站这么久，最怕两件事：一是网盘链接突然失效又没及时收到通知，二是好资源被和谐。如果您在站内遇到任何下载问题、解压报错，或者想找我唠唠嗑、投稿交流，直接通过下面这几种方式找我最快！</p>
+            </section>
+
+            <div class="contact-grid">
+                <section class="contact-form-section card">
+                    <h2>在线留言 / 资源补档申请</h2>
+                    <p class="section-desc">发现链接挂了？别客气，表单填一下，老站长看到后一般24小时内安排补档（前提是网盘账号没被封）。</p>
+                    <form id="contactForm" class="site-form">
+                        <div class="form-group">
+                            <label for="nickname">您的称呼 / ID：</label>
+                            <input type="text" id="nickname" name="nickname" placeholder="比如：热心老张、路人甲" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">联系邮箱（选填）：</label>
+                            <input type="email" id="contact-email" name="email" placeholder="方便处理后邮件通知您">
+                        </div>
+                        <div class="form-group">
+                            <label for="feedback-type">反馈类型：</label>
+                            <select id="feedback-type" name="type">
+                                <option value="dead-link">资源链接失效 / 补档申请</option>
+                                <option value="password-error">解压密码错误 / 文件损坏</option>
+                                <option value="content-contribute">家庭视频与资源投稿</option>
+                                <option value="business-coop">友情链接 / 社区合作</option>
+                                <option value="other">其他闲聊建议</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">详细描述（请附上具体资源标题或页面链接）：</label>
+                            <textarea id="message" name="message" rows="5" placeholder="例如：《周末亲子露营实录》这个视频网盘提示文件不存在，求补个高速链接..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">提交反馈给站长</button>
+                    </form>
+                </section>
+
+                <div class="contact-sidebar">
+                    <section class="card contact-info-card">
+                        <h2>站长直达通道</h2>
+                        <ul class="info-list">
+                            <li><strong>站长备用邮箱：</strong> admin@haipoint.com</li>
+                            <li><strong>Telegram 交流群：</strong> t.me/haipoint_chat (日常吹水、催更基地)</li>
+                            <li><strong>处理时效说明：</strong> 本站属于几个兴趣相投的朋友业余维护，白天各自有本职工作，一般集中在晚上或周末集中处理补档和私信，请大家多点耐心！</li>
+                        </ul>
+                    </section>
+
+                    <section class="card quick-tips-card">
+                        <h3>💡 留言避坑指南</h3>
+                        <p>1. 如果是百度网盘下载慢，请先开通SVIP或者去社区找免限速小工具，这块站长也无能为力呀。</p>
+                        <p>2. 提问前建议先看看 <a href="resources.html">资源库</a> 的历史更新说明，很多常见解压密码（如 <code>haipoint2023</code>）都在详情页写着呢。</p>
+                        <p>3. 严禁发送任何违反法律法规的内容，网络不是法外之地，珍惜账号你我他。</p>
+                    </section>
+                </div>
+            </div>
+
+            <section class="community-highlight card" style="margin-top: 30px;">
+                <h2>最近大家都在聊什么？</h2>
+                <p>在等站长回信的空隙，不妨去社区板块逛逛，看看大家最近分享的家庭生活小妙招：</p>
+                <ul class="mini-post-list">
+                    <li><span class="tag">热门讨论</span> <a href="community.html">周末带娃去郊外露营，这几台设备千万别忘带！</a> <span class="meta">by 奶爸小王 · 34 评论</span></li>
+                    <li><span class="tag">资源求助</span> <a href="community.html">求购一套高清的幼儿早教互动视频资源，有大佬分享吗？</a> <span class="meta">by 柠檬妈 · 19 评论</span></li>
+                    <li><span class="tag">站务公告</span> <a href="contact.html">关于近期网盘分享链接频繁被和谐的应对方案公告</a> <span class="meta">by 海角社长 · 52 评论</span></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>关于海角社</h3>
+                <p>一个专注于家庭温馨内容、视频资源分享及真实社群互动的温馨小站。拒绝套话，只分享亲测好用的干货资源。</p>
+            </div>
+            <div class="footer-col">
+                <h3>快速导航</h3>
+                <ul>
+                    <li><a href="index.html">返回首页</a></li>
+                    <li><a href="resources.html">全部资源库</a></li>
+                    <li><a href="community.html">互动社区</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="contact.html">联系与反馈</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>免责声明</h3>
+                <p>本站所有资源均来自网友分享及网络收集，仅供学习交流使用。如侵犯您的权益，请通过 <a href="contact.html">联系我们</a> 告知，核实后立即删除。</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023-2025 海角社 (haipoint.com) 版权所有. 保留所有权利. 真人维护，拒绝AI注水。</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
